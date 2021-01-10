@@ -12,7 +12,7 @@ typedef cell* stack;
 
 void create_empty(stack&);
 void push(stack&, Elem);
-void pop(stack&); //Si pu� fare anche Elem pop e restituire l'elemento trovato
+void pop(stack&); //Si può fare anche Elem pop e restituire l'elemento trovato
 Elem top(const stack&); //Sola lettura all'elemento in cima alla pila
 
 bool is_empty(const stack&);
