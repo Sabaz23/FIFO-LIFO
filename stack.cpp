@@ -28,12 +28,12 @@ opzionali:
 
 //LIFO ---------------------------------------------
 
-void create_empty(stack& s)
+void create_empty_stack(stack& s)
 {
     s=nullptr;
 }
 
-bool is_empty(const stack& s)
+bool is_empty_stack(const stack& s)
 {
     return (s==nullptr);
 }
