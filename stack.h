@@ -10,12 +10,12 @@ struct cell{
 
 typedef cell* stack;
 
-void create_empty(stack&);
+void create_empty_stack(stack&);
 void push(stack&, Elem);
 void pop(stack&); //Si può fare anche Elem pop e restituire l'elemento trovato
 Elem top(const stack&); //Sola lettura all'elemento in cima alla pila
 
-bool is_empty(const stack&);
+bool is_empty_stack(const stack&);
 
 
 //FIFO ------------------
