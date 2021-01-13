@@ -9,7 +9,7 @@ int main()
 {
     stack s;
     string op;
-    create_empty(s);
+    create_empty_stack(s);
     Elem x;
     while(true)
     {
